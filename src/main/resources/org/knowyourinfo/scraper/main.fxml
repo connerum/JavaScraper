@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="787.6923217773438" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.knowyourinfo.scraper.MainController">
+   <children>
+      <Button fx:id="scrapeBtn" layoutX="355.0" layoutY="449.0" mnemonicParsing="false" onAction="#scrapeBtnClick" text="Scrape!">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Label layoutX="344.0" layoutY="23.0" text="Scraper">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Label>
+      <TextField fx:id="testTextField" layoutX="319.0" layoutY="237.0" />
+      <Label fx:id="testLabel" layoutX="380.0" layoutY="307.0" text="Label" />
+   </children>
+</AnchorPane>
